@@ -16,7 +16,7 @@ function SidebarContent() {
         className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
         to="/app/dashboard"
       >
-        LBM
+        <span className="text-teal-600 dark:text-teal-400">LBM</span> La Barata Mayoreos
       </Link>
       <ul className="mt-6">
         {routes.map((route) =>

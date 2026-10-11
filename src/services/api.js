@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:82/api/v1';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:82/api/v1';
 
 const handleResponse = async (response) => {
   if (!response.ok) {

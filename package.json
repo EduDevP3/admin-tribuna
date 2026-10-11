@@ -8,6 +8,8 @@
     "@testing-library/user-event": "7.2.1",
     "@windmill/react-ui": "0.3.1",
     "axios": "^1.13.2",
+    "baseline-browser-mapping": "^2.11.28",
+    "caniuse-lite": "^1.0.30001815",
     "chart.js": "2.9.3",
     "classnames": "2.2.6",
     "faker": "4.1.0",
@@ -36,7 +38,7 @@
   },
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "build": "cross-env GENERATE_SOURCEMAP=false NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
